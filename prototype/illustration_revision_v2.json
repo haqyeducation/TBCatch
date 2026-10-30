@@ -1,0 +1,49 @@
+{
+  "tool": "Built-in image_gen; format-only PNG to WebP conversion",
+  "date": "2026-10-24",
+  "reference_grip": "Contoh gambar cek denyut.avif (viewed via Chrome PNG rendering)",
+  "reference_style": "Original TBCatch cartoon series; cream, burgundy, crimson, pink and powder blue",
+  "assets": [
+    {
+      "file": "static/assets/hero-cough-v2-cartoon.webp",
+      "source": "exec-c87c23c5-10ec-427d-a81b-8a8f375cf61c.png",
+      "placement": "Hero: coughing woman",
+      "prompts": [
+        "Edit the illustrated woman to become the TBCatch respiratory screening introduction. Preserve this exact flat 2D editorial cartoon art style, paper texture, cream #fcf8f3, burgundy #720808, crimson #a10728, pink #fec6d3 and powder blue #bad4ed palette. Change the pose: seated leaning slightly forward, coughing into a white tissue held over her mouth, eyes briefly closed, slightly tired brows. She should visibly have a cough, not be smiling or lounging happily. Other hand holds phone loosely on lap. No distress, no blood, no frightening imagery. Maintain anatomically natural hands, adult appearance, generous arch-crop margins, portrait 4:5. No text, no logo. New illustration for hero placement."
+      ]
+    },
+    {
+      "file": "static/assets/pulse-grip-v2-cartoon.webp",
+      "source": "exec-37b49f90-d617-45b1-ab4f-62561c190b71.png",
+      "placement": "Measurement instructions: reference grip",
+      "prompts": [
+        "Create a NEW pulse-measurement instruction cartoon. Reference image 1 is ONLY for the hand grip and phone geometry: palm facing viewer, index finger extended straight upward behind a phone, thumb along the right side and three remaining fingers curled naturally supporting the left side. Reference image 2 is ONLY for the flat editorial cartoon style and colors. Draw the hand grip from image 1 accurately in the illustration style of image 2. A pale powder blue SEMI-TRANSPARENT phone silhouette in portrait orientation lies over the palm, allowing viewer to see the extended INDEX finger behind it; indicate a single rear camera directly aligned with the index FINGERTIP using a small burgundy camera circle. Screen faces user/viewer, camera on back covered by the index fingertip, NOT thumb. Five fingers total with anatomically correct joints. Simple burgundy outlines, solid shapes, subtle paper grain, warm cream #fcf8f3 background, #720808 lines, #fec6d3 pink circle, #bad4ed phone, #a10728 sleeve. No text, no numbers, no logos, no photorealism, no 3D. Portrait 4:5 instructional composition, generous margins, no cropping fingers. This is a distinct close-up asset, not a person portrait."
+      ]
+    },
+    {
+      "file": "static/assets/pulse-step-v2-cartoon.webp",
+      "source": "exec-39596980-95ac-4c2a-a69c-9d2a3b231fed.png",
+      "placement": "Step 1: man measuring resting pulse",
+      "prompts": [
+        "New distinct illustration in the SAME TBCatch flat 2D editorial cartoon series as reference. Portrait 4:5, cream background #fcf8f3, burgundy #720808 outlines and hair, powder blue #bad4ed shirt, pale pink #fec6d3 chair, crimson #a10728 accents, subtle paper grain. Young Indonesian adult man with slightly tired expression and closed neutral mouth, seated upright with elbow resting on a small table while measuring pulse with a smartphone. Phone screen faces him. His index finger extends straight UP along the back of the phone to its rear camera; thumb at side, three fingers support lower phone. Side three-quarter view shows index fingertip at camera. Other hand rests on lap. No coughing during measurement. No smiling or lounging. No text, no numbers, no logos, no realistic photo, no 3D. Spacious composition for arch crop. Different subject, pose and framing from the supplied woman's illustration.",
+        "Correct this pulse-measurement illustration. Keep everything else identical including cartoon style, colors, man, chair and phone. CRUCIAL: the extended INDEX FINGERTIP MUST COMPLETELY COVER the rear camera lens. Currently the black lens is exposed just to the LEFT of the index fingertip. Move the extended index finger LEFT and UP so its fingertip rests directly over and fully occludes that lens at the upper left of phone. The nail is visible over the camera position, and NO exposed black camera dot remains anywhere on the phone. Three curled fingers support bottom and thumb side. Keep phone screen facing man. This is a hand placement correction for an instructional illustration. No text, no added graphics."
+      ]
+    },
+    {
+      "file": "static/assets/record-cough-v2-cartoon.webp",
+      "source": "exec-5da13ce0-f797-4ffa-95d2-9c771a3e1cb6.png",
+      "placement": "Step 2: man coughing into tissue while recording",
+      "prompts": [
+        "Illustrate an adult Indonesian man coughing into a tissue in his right hand while using his left hand to hold a smartphone at arm's distance to record the cough. His eyes are gently closed and his brow looks tired; he is not smiling. Seated upright. Clear everyday respiratory screening scene, tissue covering mouth, a pair of small cough strokes beside tissue. Same 2D editorial cartoon style as reference, burgundy linework, paper texture, cream background #fcf8f3, powder blue #bad4ed shirt, pale pink #fec6d3 chair, burgundy #720808 hair and crimson #a10728 trousers. Portrait 4:5 with generous crop margins. No words, no logo, no numbers. The character must be visibly coughing rather than speaking into the phone."
+      ]
+    },
+    {
+      "file": "static/assets/context-v2-cartoon.webp",
+      "source": "exec-ad47010e-96d8-4440-b14d-a5a811d9fb5c.png",
+      "placement": "Step 3: symptom questionnaire",
+      "prompts": [
+        "Create a NEW distinct TBCatch 2D editorial cartoon illustration in the style and exact palette of the reference: warm cream #fcf8f3, burgundy #720808 linework, crimson #a10728 top, pale pink #fec6d3, powder blue #bad4ed, subtle paper grain. An Indonesian adult woman with hair tied in a low bun seated upright at a small desk completing a questionnaire on a smartphone. Neutral slightly tired expression and modest slouched shoulders suggest she has been unwell, no happy lounge pose. One hand taps the front screen, the other supports the phone. A closed tissue box and used folded tissue are on the desk. Simple checklist sheet with blank lines and three square ticks sits beside phone, NO readable text or numbers. Three-quarter upper body framing and simple pink arch backdrop, generous margins for portrait 4:5 arch crop. No logos, no photorealism, no 3D. Different hairstyle, activity and composition from reference, same illustrated world."
+      ]
+    }
+  ]
+}

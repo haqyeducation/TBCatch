@@ -1,0 +1,5 @@
+{
+  "beats_checkpoint": "pretrained/v5/BEATs_iter3_plus_AS2M.pt",
+  "beats_precision": "float32",
+  "seed": 42
+}

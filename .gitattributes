@@ -1,0 +1,17 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+*.webp binary
+*.woff2 binary
+# Preserve exact V5 source/config bytes used by archived provenance hashes.
+research/src/** -text
+research/config.json -text
+research/config_v5.json -text
+research/assets_v5.json -text

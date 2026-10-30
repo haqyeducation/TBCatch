@@ -1,0 +1,62 @@
+{
+  "checked_date": "2026-10-24",
+  "resources": [
+    {
+      "name": "ppg-js",
+      "version": "0.3.0",
+      "url": "https://registry.npmjs.org/@sontakey/ppg-js/-/ppg-js-0.3.0.tgz",
+      "file": "downloads/ppg-js-0.3.0.tgz",
+      "bytes": 622364,
+      "sha256": "a91e52da8d419e5ce0929b3375358c933f28ca4fbb735b976e89d2a9ac7ce62a",
+      "verified": "npm SHA-512 integrity; MIT license",
+      "scope": "Library candidate; no independent clinical validation"
+    },
+    {
+      "name": "Welltory",
+      "url": "https://github.com/Welltory/welltory-ppg-dataset",
+      "commit": "3b506e9c97c45b89695e87f1d667fe8a033e24fa",
+      "file": "downloads/welltory_3b506e9.zip",
+      "bytes": 481809,
+      "sha256": "ac1b4a7e60778b27388b13b5605ab36ab36401395f0dabe84c8942c9e50c7770",
+      "verified": "ZIP CRC; 21 RGB/timestamp and 21 RR records; CC0 license included",
+      "scope": "13 volunteers reported; folder names are recordings, not unique participant IDs; no raw videos"
+    },
+    {
+      "name": "Fingertip Videos: DatasetVideoFiles.zip",
+      "url": "https://ndownloader.figshare.com/files/31536509",
+      "doi": "10.6084/m9.figshare.17052410.v2",
+      "license": "CC BY 4.0",
+      "file": "downloads/DatasetVideoFiles.zip",
+      "bytes": 68141216,
+      "sha256": "a2523efd081b867c941c264180ab8d1361d6a58594733fe929709f82f5c6634c",
+      "verified": "Publisher file size and MD5 match"
+    },
+    {
+      "name": "Fingertip Videos: ProjectDatasetReadings.xlsx",
+      "url": "https://ndownloader.figshare.com/files/31536527",
+      "doi": "10.6084/m9.figshare.17052410.v2",
+      "license": "CC BY 4.0",
+      "file": "downloads/ProjectDatasetReadings.xlsx",
+      "bytes": 9935,
+      "sha256": "9efb458a668323b5aa3f1e1b8e1f2f3bb68a41bc7d4351ba0b041887e7c5be2d",
+      "verified": "Publisher file size and MD5 match"
+    },
+    {
+      "name": "BUT PPG 2.0.0",
+      "url": "https://physionet.org/content/butppg/2.0.0/",
+      "download": "https://physionet.org/content/butppg/get-zip/2.0.0/",
+      "status": "Metadata and license verified against publisher SHA256; full ZIP transfer timed out, NOT available locally",
+      "n_records": 3888,
+      "n_finger_records": 1926,
+      "scope": "Processed camera PPG, ECG reference HR and quality labels; includes ear and finger; no raw videos advertised"
+    }
+  ],
+  "video_inventory": {
+    "n_videos": 51,
+    "n_label_rows": 51,
+    "reported_unique_participants": 24,
+    "n_recordings_age18plus": 24,
+    "explicit_participant_mapping": false
+  },
+  "scope": "Resources verified, not an accuracy benchmark or phone validation"
+}

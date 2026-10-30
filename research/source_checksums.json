@@ -1,0 +1,27 @@
+{
+  "purpose": "Exact frozen V5 source/config bytes from original experiment; notebook discovery changes are outside this hash set.",
+  "sha256": {
+    "config.json": "37130016c986733690fabc2a69116adebe84e84af51e8ac680d222b88391f060",
+    "config_v5.json": "d3469c82baa4e4d6880835e5eb86d51b1a3fafef7786b3c3f6a95f63149d9528",
+    "assets_v5.json": "4c60cfa8c54011620d4e4b72cffad470fe8f9a2ade458cbf267dd5e3a1a943f7",
+    "src/coda_research.py": "1f1d7017f93c7dd3fe0921e9ee56e1d4cc8383aea55f5007245fb86e38e27e25",
+    "src/coda_v3.py": "22e705f70eacae77b67eb12a7027035c53fa9635683eecff5c20b3a627c353c0",
+    "src/coda_v3_plots.py": "2f141fd42ace3fae79111bd4e23d5324d7a1636fbf7612a657924ee1de4c508f",
+    "src/coda_v4.py": "fe3cf08902459409f7a6ae728d5ad67299add5d97de2da07db7485bb9f630d63",
+    "src/coda_v4_accelerator.py": "1c1b35095206ce62615168df583fdb30ec44fcfe95c7c9787d106e0240774d03",
+    "src/coda_v4_extensions.py": "74ae0c4e99834db38cfdbbfa6fd3588ea487f0078fbb194c3211a087db394045",
+    "src/coda_v4_models.py": "71d8bd1905eabadaa9fd33cea73677237ed8f04994c722a19a6510a528c96277",
+    "src/coda_v4_networks.py": "1267fd4795c9e559a68f33b0c6f4bffa67ad841092e09531df3af16904691e9f",
+    "src/coda_v4_plots.py": "d75e25957250e87d3efdd7665cff7cbbfec6e45863ff30f020de2c3b9e0ecfd3",
+    "src/coda_v4_xai_fix.py": "bddb2b10fd5ace67389e906e36fdd2074b9000cdf5b9d1abefb9c9b5593e40b5",
+    "src/coda_v5.py": "87d59ed440ffb822b05bd8c8860d0156812224bdb253db922391bb1b24ddfb08",
+    "src/coda_v5_features.py": "44f3d44825a0258c179183b57b577145f2cf0d1ec0b02b47af7b2abd21869ac8",
+    "src/coda_v5_models.py": "ff84117067a7ed0ce257f7536342995d63af490ce44c0de751f7558f5f980c18",
+    "src/coda_v5_plots.py": "1025382a92a61f7ea90bdccec466343343ace3ae94b4e65217f53ae85eff4d17",
+    "src/coda_v5_setup.py": "c19c54ee6c9d17b3675867f3ed1eacc8a0213ad940881747f5fb35bb4fdf6b2f",
+    "src/vendor_beats/__init__.py": "c13e082f86d23bf6b1e5241d9312009da579e93017347138cf68f7ee72044946",
+    "src/vendor_beats/backbone.py": "15b2d621d4a47e937d2a12ce6c3f4626b68fe04e027b8616ad3efb054bc39d41",
+    "src/vendor_beats/BEATs.py": "cc75a342ba1c4aa287e3949b939c8fe3b2d226bb87f7f98553fa6b739462cbbd",
+    "src/vendor_beats/modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+  }
+}

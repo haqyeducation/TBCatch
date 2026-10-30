@@ -1,0 +1,43 @@
+{
+  "purpose": "CPU MVP, fixed existing CatBoost candidates; NOT V5 selected_full winner or a validated deployment model",
+  "candidates": {
+    "beats_hr": {
+      "id": "beats_hr_02",
+      "output": "beats_hr",
+      "representation": "beats",
+      "family": "cb",
+      "pca": 32,
+      "params": {
+        "depth": 3,
+        "iterations": 600,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    },
+    "beats_mobile": {
+      "id": "beats_mobile_02",
+      "output": "beats_mobile",
+      "representation": "beats",
+      "family": "cb",
+      "pca": 32,
+      "params": {
+        "depth": 3,
+        "iterations": 600,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    }
+  },
+  "outer_fold": 0,
+  "selection": "Fixed trial index 02 for each output, chosen for CPU feasibility; no outer-test scores used",
+  "source_archive_sha256": "3f8cf08b7946d6093e3ac43a853a09c841f132054eddb7ce198864049f2b1398",
+  "source_protocol": "3814883424a25eb4dd3746eabd93bd02778d39bec048ccadbb939a2f5ba4abaf",
+  "cascade": {
+    "gate": 0.0,
+    "stage2_cutoff": 0.13186813186813187
+  },
+  "proper_n": 748,
+  "calibration_n": 188,
+  "bundle_sha256": "e1fac97c0591a53e7e3dfdefab8440607dae2d87d3d013d154f97941b114e2c0",
+  "clinical_validation": false
+}

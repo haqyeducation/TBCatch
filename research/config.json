@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "enforce_frozen_split": true,
+  "data_root": "../dataset/dataset",
+  "manifest": "../dataset-audit/local-full/solicited_training_manifest_with_review_flags.csv",
+  "output_dir": "runs/main",
+  "sample_rate": 16000,
+  "window_seconds": 0.5,
+  "cv_folds": 5,
+  "test_fraction": 0.2,
+  "calibration_fraction": 0.1,
+  "target_sensitivity": 0.9,
+  "bootstrap_repeats": 1000,
+  "primary_feature_set": "mobile",
+  "clinical_features": {
+    "mobile": ["age", "sex", "reported_cough_dur", "tb_prior", "hemoptysis", "heart_rate", "weight_loss", "smoke_lweek", "fever", "night_sweats"],
+    "reference": ["age", "sex", "height", "weight", "reported_cough_dur", "tb_prior", "tb_prior_Pul", "tb_prior_Extrapul", "tb_prior_Unknown", "hemoptysis", "heart_rate", "temperature", "weight_loss", "smoke_lweek", "fever", "night_sweats"]
+  },
+  "policy": {
+    "heart_rate_outside_30_220": "set_missing",
+    "missing_reference": "retain_source_label",
+    "clipping": "retain_and_report",
+    "short_audio": "right_zero_pad",
+    "label": "tb_status"
+  },
+  "lr_C": [0.1, 1.0, 10.0],
+  "catboost_trials": [
+    {"depth": 4, "learning_rate": 0.03, "iterations": 500},
+    {"depth": 6, "learning_rate": 0.03, "iterations": 700},
+    {"depth": 4, "learning_rate": 0.08, "iterations": 400}
+  ],
+  "deep_trials": [
+    {"hidden": 24, "dropout": 0.2, "lr": 0.001, "weight_decay": 0.001},
+    {"hidden": 48, "dropout": 0.35, "lr": 0.0003, "weight_decay": 0.001}
+  ],
+  "deep_max_epochs": 80,
+  "deep_patience": 12,
+  "deep_batch_size": 64,
+  "deep_train_cough_cap": 16,
+  "deep_num_workers": 0,
+  "run_deep": true,
+  "require_cuda_for_full_training": true,
+  "run_reference_comparator": true,
+  "run_country_validation": true,
+  "run_policy_sensitivity": true,
+  "xai_max_participants": 30,
+  "xai_permutations": 64,
+  "ig_steps": 64,
+  "ig_steps_max": 256,
+  "xai_stability_noise_std": 0.005,
+  "xai_hr_shifts_bpm": [-10, -5, 5, 10],
+  "device_note": "Training RTX A6000; web HP; camera BPM currently unvalidated against a reference device."
+}

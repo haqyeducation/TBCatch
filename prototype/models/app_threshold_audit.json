@@ -1,0 +1,31 @@
+{
+  "scope": "App-only policy; original V5 research and model bundle unchanged",
+  "population": "outer_00 calibration only, not independent evaluation",
+  "n": 188,
+  "tb": 51,
+  "non_tb": 137,
+  "model": "beats_mobile_02, fixed BEATs + CatBoost candidate",
+  "bundle_sha256": "e1fac97c0591a53e7e3dfdefab8440607dae2d87d3d013d154f97941b114e2c0",
+  "selection": "Next distinct calibration score above old threshold; no outer-test scores used",
+  "clinical_validation": false,
+  "operating_points": [
+    {
+      "threshold": 0.13186813186813187,
+      "tp": 48,
+      "fn": 3,
+      "tn": 50,
+      "fp": 87,
+      "sensitivity": 0.9411764705882353,
+      "specificity": 0.36496350364963503
+    },
+    {
+      "threshold": 0.18181818181818182,
+      "tp": 44,
+      "fn": 7,
+      "tn": 81,
+      "fp": 56,
+      "sensitivity": 0.8627450980392157,
+      "specificity": 0.5912408759124088
+    }
+  ]
+}

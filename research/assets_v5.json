@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "path": "src/vendor_beats/BEATs.py",
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/732d834db70ee0fc3886b4bcbcfb4ce7fb829be2/beats/BEATs.py",
+      "revision": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+      "upstream_sha256": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+      "sha256": "cc75a342ba1c4aa287e3949b939c8fe3b2d226bb87f7f98553fa6b739462cbbd",
+      "modification": "Relative imports only"
+    },
+    {
+      "path": "src/vendor_beats/backbone.py",
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/732d834db70ee0fc3886b4bcbcfb4ce7fb829be2/beats/backbone.py",
+      "revision": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+      "upstream_sha256": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+      "sha256": "15b2d621d4a47e937d2a12ce6c3f4626b68fe04e027b8616ad3efb054bc39d41",
+      "modification": "Relative imports only"
+    },
+    {
+      "path": "src/vendor_beats/modules.py",
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/732d834db70ee0fc3886b4bcbcfb4ce7fb829be2/beats/modules.py",
+      "revision": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+      "upstream_sha256": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424",
+      "sha256": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424",
+      "modification": "Relative imports only"
+    },
+    {
+      "path": "src/vendor_beats/LICENSE",
+      "sha256": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+      "bytes": 1104,
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/732d834db70ee0fc3886b4bcbcfb4ce7fb829be2/LICENSE"
+    },
+    {
+      "path": "pretrained/v5/BEATs_iter3_plus_AS2M.pt",
+      "sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+      "bytes": 361499833,
+      "url": "https://huggingface.co/lpepino/beats_ckpts/resolve/5b53b0404df452a3a607d7e67687227730e5bad1/BEATs_iter3_plus_AS2M.pt",
+      "provenance": "Third-party mirror; LFS hash also matches mooneyko/BEATs; not authenticated against inaccessible publisher download."
+    },
+    {
+      "path": "pretrained/v5/tabpfn-v2-classifier-v2_default.ckpt",
+      "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+      "bytes": 29009539,
+      "url": "https://huggingface.co/Prior-Labs/TabPFN-v2-clf/resolve/f851f2a3c941544733b712d8c0f96dfae9b28862/tabpfn-v2-classifier-v2_default.ckpt"
+    },
+    {
+      "path": "pretrained/v5/TABPFN_LICENSE.txt",
+      "sha256": "08b1851b4b6136b5fb0cb124d3258e0d91e3e1623f1be5904b77e4d270d112d8",
+      "bytes": 11483,
+      "url": "https://huggingface.co/Prior-Labs/TabPFN-v2-clf/resolve/f851f2a3c941544733b712d8c0f96dfae9b28862/LICENSE.txt"
+    }
+  ],
+  "beats_upstream_revision": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+  "tabpfn_library": "2.0.9",
+  "tabpfn_weights_version": "v2",
+  "no_TB_labels_used": true
+}

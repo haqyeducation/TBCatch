@@ -1,0 +1,14 @@
+librosa==0.10.2.post1
+tabpfn==2.0.9
+torchaudio==2.6.0+cu118
+einops==0.8.1
+huggingface-hub==0.28.1
+numba==0.61.2
+llvmlite==0.44.0
+soundfile==0.13.1
+soxr==0.5.0.post1
+audioread==3.0.1
+pooch==1.8.2
+lazy-loader==0.4
+msgpack==1.1.0
+decorator==5.1.1
